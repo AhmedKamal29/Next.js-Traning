@@ -2,10 +2,12 @@
   "name": "learn-starter",
   "version": "0.1.0",
   "private": true,
+  "prettier": "^2.4.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write \"src/**/*.{js, jsx}\""
   },
   "dependencies": {
     "next": "^11.0.0",
